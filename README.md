@@ -4,11 +4,10 @@
 
 ## Description
 
-Harmony is a project about creating a simple messaging application client/server.
+Harmony is a project about redacting a simple messaging standard.
 The project is still in very early development, features and technologies are still in debate.
 
-We aim to provide a library for building custom clients and another one for servers.
-Both with minimal feature set with a focus on high modding capacities.
+We aim to provide a standard for building custom clients and servers.
 
 ## Disclaimer
 
