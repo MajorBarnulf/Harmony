@@ -30,5 +30,5 @@ JSON number, positive integers inside the inclusive range `[0..18_446_744_073_70
 ## Structures
 - [channel](./models/channel.md)
 - [message](./models/message.md)
-- [role](./models/role.md)
+- [item](./models/item.md)
 - [user](./models/user.md)

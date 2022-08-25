@@ -17,13 +17,13 @@ The item model is a [model](../models.md) about a cosmetic item that [users](./u
 ## Example
 ```json
 {
-"item_id": 56892938776,
-"owner_id": 37568793569,
-"name": "shiny thing",
-"description": "a shiny item",
-"color": "16766720",
-"icon_url": "http://place.com/pic.png",
-"author_id": 37568793569,
-"creation_date": 78496987687,
+    "item_id": 56892938776,
+    "owner_id": 37568793569,
+    "name": "shiny thing",
+    "description": "a shiny item",
+    "color": "16766720",
+    "icon_url": "http://place.com/pic.png",
+    "author_id": 37568793569,
+    "creation_date": 78496987687,
 }
 ```

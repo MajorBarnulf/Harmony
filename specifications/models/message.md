@@ -1,6 +1,6 @@
 # Message
 
-The message model is a [model](../models.md) representinh the data of a message sent in a [channel](./channel.md).
+The message model is a [model](../models.md) representing the data of a message sent in a [channel](./channel.md).
 
 ## Properties
 | key           | type       | example                      |

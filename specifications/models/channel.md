@@ -13,9 +13,9 @@ The channel model is a [model](../models.md) representing the public data of a c
 ## Example
 ```json
 {
-"channel_id": 85629873698,
-"name": "general",
-"color": 16766720,
-"icon_url": "http://place.com/pic.png",
+    "channel_id": 85629873698,
+    "name": "general",
+    "color": 16766720,
+    "icon_url": "http://place.com/pic.png",
 }
 ```
