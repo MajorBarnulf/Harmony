@@ -8,9 +8,38 @@ A signal should be handled by the receiver according to contracts associated to 
 
 There are essentially two categories of signals, those sent by the client and those sent by the server.
 
+## Mandatory fields
 
-## Client
+- `id` : number, identificator of the request
+- `type` : either `"request"`, `"response"` or `"error"`
+- `name` : the name of the specific variant of request / response
+- `data` : object holding data associated to the variant
 
-###  TODO
+### Example
 
-### get_user
+
+```json
+{
+    "id": 8937563975,
+    "type": "request",
+    "name": "command",
+    "data": {
+        "name": "profile",
+        "message_id":  8976593876593
+    },
+}
+```
+
+## Requests
+
+These are the signals sent by the client to request an action be taken by the server, may involve a server response.
+
+- [`get_users`](./signals/requests/get_users.md)
+- [`get_channels`](./signals/requests/get_channels.md)
+- [`get_messages`](./signals/requests/get_messages.md)
+- [`create_message`](./signals/requests/create_message.md)
+
+## Responses
+
+These are the signals sent by the server as a response to a request or as spontaneous notifications of an occuring event.
+
