@@ -1,16 +1,16 @@
 # `get_channels`
 
-Sent by the client to request the list of server channels currently visible by the user.
+Sent by the client to request the list of server [channels](../../models/channel.md) currently visible by the user.
 
-## data
+## Data
 
 (none)
 
-## response
+## Response
 
 - [channels](../response/channels.md)
 
-## example
+## Example
 
 ```json
 {

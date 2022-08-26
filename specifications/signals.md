@@ -41,5 +41,14 @@ These are the signals sent by the client to request an action be taken by the se
 
 ## Responses
 
+- [`channels`](./signals/response/channels.md)
+- [`users`](./signals/response/users.md)
+- [`messages`](./signals/response/messages.md)
+- [`message_create`](./signals/response/message_create.md)
+
+## Errors
+
+- [`channel_not_accessible`](./signals/errors/channel_not_accessible.md)
+
 These are the signals sent by the server as a response to a request or as spontaneous notifications of an occuring event.
 

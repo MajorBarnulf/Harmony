@@ -1,16 +1,16 @@
 # `get_messages`
 
-Sent by the client to request at most the 100 last messages in a specific channel.
+Sent by the client to request at most the 100 last [messages](../../models/message.md) in a specific channel.
 
-## data
+## Data
 
-- `channel_id`: identifier of the channel to get messages from.
+- `channel_id`: identifier of the channel to get [messages](../../models/message.md) from.
 
-## response
+## Response
 
 - [messages](../response/messages.md)
 
-## example
+## Example
 
 ```json
 {

@@ -1,16 +1,16 @@
 # `get_users`
 
-Sent by the client to request the list of server users.
+Sent by the client to request the list of [users](../../models/user.md) on the server.
 
-## data
+## Data
 
 (none)
 
-## response
+## Response
 
 - [users](../response/users.md)
 
-## example
+## Example
 
 ```json
 {

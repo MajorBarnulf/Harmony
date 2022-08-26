@@ -1,5 +1,7 @@
 # `error`
 
+Triggered when a requested [channel](../../models/channel.md) is not found or access is not allowed.
+
 ## TODO
 
 ```json
